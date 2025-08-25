@@ -3,8 +3,8 @@
 ## Task Requirement
 
   1. Install Nginx && PHP
-  2. Configure Nginx
-  3. Connect Nginx with PHP by Socket and Port
+  2. Configure Nginx by Socket and Port
+  3. Configure PHP by Socket and Port
 
 ---
 
@@ -47,7 +47,7 @@ nginx -t
 
 ---
 
-### 3. Configure Nginx with Socket and port
+### 3. Configure PHP with Socket and port
 
 After Choosing your way of configuration you have to configure PHP to communicate as Socket or Port, By default it uses Socket.
 
