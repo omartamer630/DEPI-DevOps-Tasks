@@ -51,9 +51,7 @@ nginx -t
 
 After Choosing your way of configuration you have to configure PHP to communicate as Socket or Port, By default it uses Socket.
 
-To configure php you have to go to `/etc/php/8.3/fpm/pool.d/www.conf`
-
-and find `listen = /run/php/php8.3-fpm.sock` and comment it -> `;listen = /run/php/php8.3-fpm.sock`, and the put this -> `listen = 127.0.0.1:9000`
+To configure php you have to go to `/etc/php/8.3/fpm/pool.d/www.conf` and find `listen = /run/php/php8.3-fpm.sock` and comment it -> `;listen = /run/php/php8.3-fpm.sock`, and the put this -> `listen = 127.0.0.1:9000`
 
 after configuring PHP you have to restart the PHP service:
 ```bash
